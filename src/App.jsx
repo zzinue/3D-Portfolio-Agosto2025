@@ -9,6 +9,8 @@ import TechStack from "./sections/TechStack.jsx";
 import Testimonials from "./sections/Testimonials.jsx";
 import Contact from "./sections/Contact.jsx";
 import Footer from "./sections/Footer.jsx";
+import AppToast from "./components/AppToast.jsx";
+
 
 const App = () => {
     return (
@@ -23,6 +25,7 @@ const App = () => {
 
             <TechStack/>
             {/*<Testimonials/>*/}
+            <AppToast />
             <Contact/>
             <Footer/>
         </>

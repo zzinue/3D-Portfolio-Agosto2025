@@ -2,6 +2,8 @@ import React, {useRef, useState} from 'react'
 import TitleHeader from "../components/TitleHeader.jsx";
 import ContactExperience from "../components/ContactExperience.jsx";
 import emailjs from '@emailjs/browser'
+import toast from "react-hot-toast";
+
 
 const Contact = () => {
     const formRef = useRef(null);
@@ -31,11 +33,13 @@ const Contact = () => {
                 formRef.current,
                 import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY,
             )
+            toast.success("Mensaje enviado correctamente");
             //resent the form after submission
             setFormData({name: '', email: '', message: ''})
 
         } catch (error) {
-            console.log('EmailJs Error: ', error);
+            console.log('Error al enviar el mensaje: ', error);
+            toast.error("No se pudo enviar el mensaje. Inténtalo de nuevo.");
         } finally {
             setLoading(false);
         }
