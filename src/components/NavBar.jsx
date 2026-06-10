@@ -14,6 +14,10 @@ const NavBar = () => {
     return (
         <header className={`navbar ${scrolled ?'scrolled':'not-scrolled'}`}>
             <div className="inner">
+                <div className="w-9 h-9 rounded-full bg-white text-black flex items-center justify-center font-bold">
+                    <a href="#hero">VG</a>
+
+                </div>
                     <a className="logo" href="#hero">
                         Victor | Guerrero
                     </a>

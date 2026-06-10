@@ -29,8 +29,8 @@ const words = [
 ];
 
 const counterItems = [
-    { value: 2, suffix: "+", label: "Años de Experiencia" },
-    { value: 20, suffix: "+", label: "Proyectos Completados" },
+    { value: 6, suffix: "+", label: "Meses de Experiencia Profesional" },
+    { value: 20, suffix: "+", label: "Proyectos y prácticas desarrolladas" },
     { value: 30, suffix: "+", label: "Sitios Responsivos y Optimizados" },
     { value: 90, suffix: "%", label: "Código Reutilizable y Escalable" },
 ];

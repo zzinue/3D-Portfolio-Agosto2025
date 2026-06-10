@@ -70,6 +70,15 @@ const Hero = () => {
                 {/*    </div>*/}
                 {/*</figure>*/}
 
+                <aside className="hero-photo">
+                    <img
+                        src="/images/perfil.png"
+                        alt="Victor Guerrero, desarrollador web"
+                        className="w-64 h-64 object-cover rounded-3xl"
+                        style={{ objectPosition: "center 20%" }}
+                    />
+
+                </aside>
             </div>
 
             <AnimatedCounter/>
