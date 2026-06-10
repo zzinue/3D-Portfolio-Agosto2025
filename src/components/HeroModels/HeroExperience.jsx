@@ -7,7 +7,7 @@ import HeroLights from "./HeroLights.jsx";
 import Particles from "./Particles.jsx";
 
 const HeroExperience = () => {
-    const isTablet = useMediaQuery({query: '(max-width: 1024px)'});
+    const isTablet = useMediaQuery({query: '(max-width: 400px)'});
     const isMobile = useMediaQuery({query: '(max-width: 768px)'});
 
     return (

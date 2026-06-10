@@ -64,11 +64,11 @@ const Hero = () => {
                     </div>
                 </header>
                 {/*right part*/}
-                <figure>
-                    <div className="hero-3d-layout ">
-                        <HeroExperience/>
-                    </div>
-                </figure>
+                {/*<figure>*/}
+                {/*    <div className="hero-3d-layout ">*/}
+                {/*        <HeroExperience/>*/}
+                {/*    </div>*/}
+                {/*</figure>*/}
 
             </div>
 
