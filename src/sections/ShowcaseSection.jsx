@@ -69,13 +69,13 @@ const ShowcaseSection = () => {
                             </div>
                             <div className="project" ref={project3Ref}>
                                 <div className="image-wrapper bg-[#ffe7eb]">
-                                    <a  target="_blank" href="https://boostrap-bootcamp-page.vercel.app/">
-                                        <img src="/images/tripguide.png" alt=" YC Directory"/>
+                                    <a  target="_blank" href="https://awwards-site-five.vercel.app/">
+                                        <img src="/images/gaming.png" alt=" YC Directory"/>
                                     </a>
 
                                 </div>
-                                <h2>Guia de Turistas Landing Page </h2>
-                                <p className="text-white-50 md:text-xl">Página web desarrollada con las tecnologías de Bootstrap, HTML y CSS3.</p>
+                                <h2>Landing Page Gaming con Animaciones Avanzadas</h2>
+                                <p className="text-white-50 md:text-xl">Página web interactiva inspirada en experiencias tipo Awwwards, con hero audiovisual, transiciones de video, animaciones con GSAP, efectos de scroll, tarjetas dinámicas y diseño responsivo. Desarrollada con React, Vite, Tailwind CSS y GSAP.</p>
                             </div>
                         </div>
 
