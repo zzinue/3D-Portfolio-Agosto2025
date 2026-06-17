@@ -42,14 +42,14 @@ const ShowcaseSection = () => {
 
                         <div className='first-project-wrapper' ref={project1Ref}>
                             <div className='image-wrapper'>
-                                <a   target="_blank" href="https://awwards-site-4nui3tq7h-zzinues-projects.vercel.app/">
-                                    <img src='/images/gaming.png' alt='Ryde'/>
+                                <a   target="_blank" href="https://lap-zone-frontend.vercel.app/">
+                                    <img src='/images/lapzone.png' alt='Ryde'/>
                                 </a>
                             </div>
                             <div className="text-content">
-                                <h2>Plataforma Interactiva de Videojuegos</h2>
+                                <h2>LapZone | E-commerce Full Stack de Tecnología</h2>
                                 <p className="text-white-50 md:text-xl">
-                                    Moderna Interfaz de video juegos creada con ReactJS y Tailwind CSS. 100% responsiva animada con GSAP.
+                                    Tienda en línea para venta de laptops y accesorios, con catálogo dinámico, carrito persistente, autenticación JWT, checkout, pagos con Stripe y panel administrativo. Desarrollada con React, Spring Boot y PostgreSQL.
                                 </p>
                             </div>
                         </div>
